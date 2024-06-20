@@ -1,0 +1,46 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+header, main, footer {
+    padding: 20px;
+    text-align: center;
+}
+header {
+    background-color: #4CAF50;
+    color: white;
+}
+main {
+    flex: 1;
+    background-color: #f1f1f1;
+    padding: 40px 20px;
+}
+footer {
+    background-color: #333;
+    color: white;
+}
+@media (min-width: 600px) {
+    header h1 {
+        font-size: 2.5em;
+    }
+    main {
+        font-size: 1.2em;
+    }
+    footer {
+        font-size: 1.2em;
+    }
+}
+@media (max-width: 599px) {
+    header h1 {
+        font-size: 1.8em;
+    }
+    main {
+        font-size: 1em;
+    }
+    footer {
+        font-size: 1em;
+    }
+}
